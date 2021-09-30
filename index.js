@@ -51,29 +51,6 @@ async function start(msg){
                     channels: 1,
                     sampleRate: 16000
                 }))
-                //const rawAudio = opusStream.pipe(new opus.Decoder({ frameSize: 960, channels: 2, rate: 48000 }));
-                /*
-                const oggStream = new opus.OggLogicalBitstream({
-                    opusHead: new opus.OpusHead({
-                        channelCount: 2,
-                        sampleRate: 48000,
-                    }),
-                    opusTags: new opus.OpusTags({
-                        maxPackets: 10,
-                    })
-                });
-                
-                
-                const out = fs.createWriteStream(filename);
-
-                pipeline(opusStream, oggStream, out,  (err) => {
-                    console.log(err);
-                    if (err) {
-                        console.warn('❌ Error recording file ${filename} - ${err.message}');
-                    } else {
-                        console.log('✅ Recorded ${filename}');
-                    }
-                });*/
             });
         }
 
