@@ -1,3 +1,4 @@
 node_modules/
 recordings/
 .auth.json
+auth.json
