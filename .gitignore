@@ -1,7 +1,5 @@
 node_modules/
 recordings/
-.auth.json
-auth.json
 models/checkpoint_0.4_2021-10-04.h5
 models/checkpoint_0.6_2021-10-04.h5
 models/checkpoint_0.7_2021-10-04.h5
@@ -18,3 +16,4 @@ recordings/1633007658496_marcode3#8575.wav
 recordings/1633008579275_rick_sanchez#1507.wav
 recordings/1633008579277_BobbyMcLovin#3497.wav
 recordings/1633008579277_marcode3#8575.wav
+auth.json
