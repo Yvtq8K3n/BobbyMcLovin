@@ -37,7 +37,7 @@ async function start(msg){
             const receiver = connection.receiver;
             member.guild.channels.cache.get(voiceChannel.id).members.forEach((tempMember) => {
                 const username = findUsername(tempMember.id)
-                const filename = `./recordings/${Date.now()}_${username}.wav`;
+                const filename = `./recordings/praisethelod_${Date.now()}_${username}.wav`;
 
                 const encoder = new OpusEncoder(16000, 1)
                 const commandAudioStream = receiver.subscribe(tempMember.id, {
@@ -52,6 +52,7 @@ async function start(msg){
                     sampleRate: 16000
                 }))
             });
+		    const prediction = model.predict(filename);
         }
 
 	} catch (error) {

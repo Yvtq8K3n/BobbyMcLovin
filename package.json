@@ -11,6 +11,7 @@
   "dependencies": {
     "@discordjs/opus": "^0.5.3",
     "@discordjs/voice": "^0.6.0",
+    "@tensorflow/tfjs": "^3.9.0",
     "discord.js": "^13.1.0",
     "libsodium-wrappers": "^0.7.9",
     "node-crc": "^2.0.11",
